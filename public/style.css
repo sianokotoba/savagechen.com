@@ -1,0 +1,363 @@
+/*
+font-family: 'Bad Script', cursive;
+font-family: 'Allura', cursive;
+font-family: 'Homemade Apple', cursive;
+font-family: 'Parisienne', cursive;
+font-family: 'Raleway', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Questrial', sans-serif;
+font-family: 'Cinzel', serif;
+font-family: 'Comfortaa', cursive;
+font-family: 'Poiret One', cursive;
+*/
+
+.app-container {
+  height: 100vh;
+  /*width: 100vw;*/
+  /* background-color: white;
+  background: url('media/couple-sand-01.jpg');
+  background-repeat: no-repeat;
+  font-family: 'Fredericka the Great', cursive; */
+  font-size: 2em;
+  text-align: center;
+}
+
+.landing-container {
+  background: url('media/couple-sand-01.jpg');
+  background-repeat: no-repeat;
+}
+
+.landing-container > h1 {
+  font-family: 'Amatic SC', cursive;
+  font-weight: bold;
+  font-size: 72px;
+}
+
+.landing-container > h2 {
+  font-family: 'Fredericka the Great', cursive;
+}
+
+.landing-container > h2 > a {
+  color: #333333;
+}
+
+.landing-container > h2 > a:hover {
+  text-decoration: none;
+  color: rgba(50, 179, 168, 0.75);
+}
+
+
+.landing-container > h3 {
+  font-family: 'Covered By Your Grace', cursive;
+  font-size: 40px;
+}
+
+.landing-container > .message-btn {
+  margin-bottom: 30px;
+}
+
+.top-container {
+  height: 20vh;
+}
+
+.middle-container {
+  height: 60vh;
+}
+
+.bottom-container {
+  height: 20vh;
+}
+
+.hidden-nav {
+  height: 10vh;
+}
+
+.flexbox-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.flexbox-item {
+  flex-basis: 100px;
+  margin-left: 0.5em;
+  margin-right: 0.5em;
+}
+
+.input-field:input {
+  font-size: 20px, !important;
+}
+
+.rsvp-form-inputs {
+  /* font-size: 20px; */
+}
+
+/* #first_name {
+  font-size: 16px;
+} */
+
+.rsvp-color {
+  background-color: yellow;
+}
+
+
+.death-bg {
+  /*background: url('media/death-bg-name.svg');*/
+  /*background-position: center center;
+  background-attachment: fixed;
+  background-size: contain;
+  background-repeat: no-repeat;*/
+  width: 100%;
+  max-width: 523p
+  /*max-height: 100vh;*/
+  /*height: 300px;*/
+  vertical-align: middle;
+}
+
+.dark-main {
+  height: 100vh;
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+}
+
+.home-container {
+  background-color: #455A64;
+  /* background: url('media/lightbulb02.png'); */
+  background-position: center center;
+  /*background-repeat: no-repeat;*/
+  height: 100vh;
+  width: 100vw;
+}
+
+.home-button {
+  padding: 20px;
+  position: relative;
+  top: 50vh;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.round-lightbulb {
+  border-radius: 50%;
+  background: #78909C;
+  /*padding: 20px;*/
+  width: 100px;
+  height: 100px;
+}
+
+.round-home {
+  border-radius: 50%;
+  background: #FFF9C4;
+  /*padding: 20px;*/
+  width: 100px;
+  height: 100px;
+}
+
+.video-container {
+  position: absolute;
+  top: -50%;
+  left: -50%;
+  width: 100vw;
+  height: 100vh;
+}
+
+video {
+  background-color: #B0BEC5;
+  /*background-position: center center;*/
+  /*position: absolute;*/
+  position: fixed;
+  height: 100vh;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  margin: auto;
+  min-height: 50%;
+  min-width: 50%;
+}
+
+hr .blueGrey700 {
+  border: 1px solid #455A64;
+  /*text-color: #455A64;*/
+}
+
+#name-logo-wrapper {
+  position: relative;
+  margin: 0 auto;
+  top: 30vh;
+  vertical-align: middle;
+}
+
+#name-logo-wrapper img {
+  /*display: inline-block;*/
+  position:absolute;
+  left:0;
+  height: auto;
+  width: auto\9;
+  max-width: 100%;
+
+  -webkit-transition: opacity 1s ease-in-out;
+  -moz-transition: opacity 1s ease-in-out;
+  -o-transition: opacity 1s ease-in-out;
+  transition: opacity 1s ease-in-out;
+}
+
+#name-logo-wrapper img.hovered:hover {
+  opacity:0;
+}
+
+
+
+.second:hover h2 {
+  /*color: #FFFFFF;*/
+  /*text-shadow:
+  -1px -1px 0 #FFFFFF,
+  1px -1px 0 #FFFFFF,
+  -1px 1px 0 #FFFFFF,
+  1px 1px 0 #FFFFFF;*/
+}
+
+.bio-wrapper {
+  margin-top: 40px;
+  margin-bottom: 30px;
+}
+
+.personal-photo {
+  position: relative;
+  left: 0;
+  height: auto;
+  width: 100%;
+  max-width: 450px;
+}
+
+
+.banner-container {
+  /*position: absolute;*/
+}
+
+.banner {
+  /*top: 2100px;*/
+  height: 5vh;
+  width: 100vw;
+  display: inline-flex;
+  position: relative;
+  background: rgba(255, 255, 255, 0.7);
+}
+
+.third {
+  height: 100vh;
+}
+
+.dark-credits-wrapper {
+  overflow: hidden;
+}
+
+.dark-credits {
+  height: 100%;
+  -webkit-animation-name: move;
+  -webkit-animation-duration: 20s;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-direction: bottom;
+  -webkit-animation-timing-function: linear;
+}
+
+.dark-credits:hover {
+  -webkit-animation-play-state: paused;
+}
+
+.carousel:hover {
+  -webkit-animation-play-state: paused;
+}
+
+.carousel {
+  background-color: rgba(245,245,245,1);
+}
+
+.facts {
+  text-align: left;
+  font-size: 20px;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+/* This determines the length of the scrolling credits/text */
+@-webkit-keyframes move {
+  0% {
+    margin-top: 600px;
+  }
+  100% {
+    margin-top: -1800px;
+  }
+}
+
+.credits-right {
+  text-align: right;
+}
+
+table {
+  /*align-items: center;*/
+  margin: 0 auto;
+  /*margin-left: 5px;*/
+}
+
+tr {
+  /*text-align: center;*/
+}
+
+td {
+  /*margin: 5px;*/
+}
+
+.t-right {
+  text-align: right;
+}
+
+.t-left {
+  text-align: left;
+}
+
+.bio {
+  background: rgba(255, 255, 255, 1);
+}
+
+/*This code is for fadein text!*/
+#darkFadeIn h1 {
+  opacity: 0;
+  font-size: 100px;
+  color: #455A64;
+  margin-top: 25px;
+  text-align: center;
+
+  -webkit-transition: opacity 2s ease-in;
+      -moz-transition: opacity 2s ease-in;
+      -ms-transition: opacity 2s ease-in;
+        -o-transition: opacity 2s ease-in;
+          transition: opacity 2s ease-in;
+}
+
+#darkFadeIn h1.load {
+  opacity: 1;
+}
+
+#lightFadeIn h1 {
+  opacity: 0;
+  font-size: 21px;
+  margin-top: 25px;
+  text-align: center;
+
+  -webkit-transition: opacity 2s ease-in;
+      -moz-transition: opacity 2s ease-in;
+      -ms-transition: opacity 2s ease-in;
+        -o-transition: opacity 2s ease-in;
+          transition: opacity 2s ease-in;
+}
+
+#lightFadeIn h1.load {
+    opacity: 1;
+}
+
+#h1-fadein {
+  font-size: 40px;
+}

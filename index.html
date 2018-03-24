@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='utf-8'>
+    <meta name='viewport' content='width=device-width initial-scale=1.0'>
+
+    <!-- Google Fonts -->
+    <!-- sans-serif font -->
+    <link href="https://fonts.googleapis.com/css?family=Cinzel|Oswald|Poppins|Questrial|Raleway|Six+Caps" rel="stylesheet">
+    <!-- cursive font -->
+    <link href="https://fonts.googleapis.com/css?family=Allura|Amatic+SC|Cinzel+Decorative|Comfortaa|Covered+By+Your+Grace|Fredericka+the+Great|Homemade+Apple|Parisienne|Poiret+One" rel="stylesheet">
+
+    <!-- jQuery CDN -->
+    <script
+      src="https://code.jquery.com/jquery-3.1.1.min.js"
+      integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+      crossorigin="anonymous">
+    </script>
+
+    <!--Import jQuery before materialize.js-->
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <!-- <script type="text/javascript" src="js/materialize.min.js"></script> -->
+
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.1/css/materialize.min.css">
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.1/js/materialize.min.js"></script>
+
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+    <script src="https://www.gstatic.com/firebasejs/3.6.10/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/3.6.10/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/3.6.10/firebase-database.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/3.6.10/firebase-messaging.js"></script>
+
+    <!-- Leave out Storage -->
+    <script src="https://www.gstatic.com/firebasejs/4.1.4/firebase.js"></script>
+    <script>
+      // Initialize Firebase
+      var config = {
+        apiKey: "AIzaSyDSqTg-1md4nO7d5aJJ_cbeCPSeWtHYUA8",
+        authDomain: "savagechen-b79f7.firebaseapp.com",
+        databaseURL: "https://savagechen-b79f7.firebaseio.com",
+        projectId: "savagechen-b79f7",
+        storageBucket: "savagechen-b79f7.appspot.com",
+        messagingSenderId: "619806035005"
+      };
+      firebase.initializeApp(config);
+    </script>
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="style.css" />
+    <script src="/modal-jquery.js" defer></script>
+     <script src="/modal.js" defer></script>
+    <script src="/bundle.js" defer></script>
+    <title>Jane & John</title>
+  </head>
+  <body>
+    <div id="root"></div>
+  </body>
+</html>
