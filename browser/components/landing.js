@@ -32,7 +32,7 @@ class Landing extends Component {
         <h1>Jane & John Savage</h1>
         <h3>SUNDAY MAY 6, 2018 </h3>
         <h2>
-          <a href="https://www.atlantisbahamas.com/">The Cove at Atlantis</a>
+          <a href="https://www.atlantisbahamas.com/" target="_blank">The Cove at Atlantis</a>
         </h2>
         <h3>Paradise Island, Nassau, Bahamas</h3>
         <hr />
