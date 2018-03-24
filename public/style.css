@@ -27,6 +27,15 @@ font-family: 'Poiret One', cursive;
   background-repeat: no-repeat;
 }
 
+.landing-container > button > a {
+  color: white;
+}
+
+.landing-container > button > a:hover {
+  text-decoration: none;
+  color: #333333;
+}
+
 .landing-container > h1 {
   font-family: 'Amatic SC', cursive;
   font-weight: bold;
@@ -55,6 +64,15 @@ font-family: 'Poiret One', cursive;
 .landing-container > .message-btn {
   margin-bottom: 30px;
 }
+
+.modal {
+  z-index: 1003;
+  display: none;
+  opacity: 0;
+  top: 4%;
+  transform: scaleX(0.8) scaleY(0.8);
+}
+
 
 .top-container {
   height: 20vh;

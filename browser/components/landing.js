@@ -1,13 +1,14 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import { rsvpOkay } from '../reducers/navigation';
-import { rsvp_code } from '../../secrets';
+import { rsvp_code, contact_us_email } from '../../secrets';
 
 class Landing extends Component {
   constructor(props) {
     super(props);
 
     this.onRSVPSubmit = this.onRSVPSubmit.bind(this);
+    this.addEmailLink = this.addEmailLink.bind(this);
   }
 
   onRSVPSubmit(evt) {
@@ -20,6 +21,13 @@ class Landing extends Component {
       // Reset the input value to empty string
       $('#code').val('');
       alert(`The wrong code was entered. Please try again.`);
+    }
+  }
+
+  addEmailLink() {
+    const link = document.getElementById('message-link');
+    link.onclick = function() {
+      this.href = `mailto:${contact_us_email}`;
     }
   }
 
@@ -36,10 +44,13 @@ class Landing extends Component {
         </h2>
         <h3>Paradise Island, Nassau, Bahamas</h3>
         <hr />
-        <button className="message-btn waves-effect waves-light btn-large" onClick={(e) => this.yesAttending(e)}>
-          send a message
+        <button className="message-btn waves-effect waves-light btn-large">
+          <a id="message-link" onClick={this.addEmailLink}>send a message</a>
         </button>
         {
+          // <button className="message-btn waves-effect waves-light btn-large" onClick={(e) => this.yesAttending(e)}>
+          //   send a message
+          // </button>
           // <h4>Please enter the code to RSVP:</h4>
           // <div className="row">
           //   <div className="col s3"></div>
